@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projet - Love & Lost</title>
+  <link rel="stylesheet" href="../../CSS/projet.css" />
+</head>
+<body>
+  <header>
+    <h1>Projet Jeu Narratif – Love & Lost</h1>
+    <p>Rose Vacher & Clément Breuil</p>
+  </header>
+
+  <main class="projet-container">
+
+    <section>
+      <h2>Contexte</h2>
+      <p><strong>Love & Lost</strong> est un jeu narratif développé dans le cadre d’un projet tutoré. Il aborde des thématiques sensibles telles que la transition de genre, le harcèlement familial et le suicide, à travers l’histoire poignante d’un jeune garçon trans. Ce jeu a été conçu pour sensibiliser le joueur à ces problématiques via l’exploration émotionnelle d’un passé douloureux, dans un environnement immersif et symbolique.</p>
+    </section>
+
+    <section>
+      <h2>Concept et Gameplay</h2>
+      <ul>
+        <li>Exploration libre de la maison familiale abandonnée</li>
+        <li>Collecte de pages de journal et d’objets personnels</li>
+        <li>Déclenchement de flashbacks interactifs</li>
+        <li>Narration visuelle et émotionnelle centrée sur la sœur du défunt</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Programmation & Optimisation</h2>
+      <ul>
+        <li>Organisation claire en dossiers/sujets avec scripts commentés</li>
+        <li>Utilisation de [SerializeField] pour configurer dans Unity</li>
+        <li>Optimisation avec vérification des conditions avant calculs lourds</li>
+        <li>Exemple : <strong>DoorScript</strong> (interactions, sons, animations, clés...)</li>
+        <li>Découpage du jeu en plusieurs scènes pour alléger les ressources</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Scénographie</h2>
+      <p>Chaque étage de la maison a été pensé pour refléter l’histoire familiale :</p>
+      <ul>
+        <li>Salon, cuisine, chambres, sous-sol</li>
+        <li>Ambiance vide, silencieuse, marquée par l’absence et le souvenir</li>
+        <li>Décors sobres avec peu de meubles pour accentuer l’atmosphère d’abandon</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Accessibilité & Inclusion</h2>
+      <ul>
+        <li>Jeu accessible aux personnes sourdes (pas de dialogues oraux)</li>
+        <li>Tentative d’intégration d’audiodescription (non finalisée)</li>
+        <li>Thèmes inclusifs : transition de genre, harcèlement, suicide</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Illustrations du projet</h2>
+      <p>Voici un aperçu de différentes scènes du jeu <strong>Love & Lost</strong> ainsi que des extraits de code utilisés pour gérer l’interactivité et la structure du projet Unity.</p>
+    
+      <div class="gallery-cards">
+        <div class="card">
+          <img src="../../assets/LAL_DoorScript1.png" alt="Script C# – DoorScript (partie 1)">
+          <div class="caption">
+            <h3>DoorScript – Partie 1</h3>
+            <p>Initialisation de la rotation de la porte, gestion de l’ouverture conditionnelle et détection de proximité du joueur.</p>
+          </div>
+        </div>
+    
+        <div class="card">
+          <img src="../../assets/LAL_DoorScript2.png" alt="Script C# – DoorScript (partie 2)">
+          <div class="caption">
+            <h3>DoorScript – Partie 2</h3>
+            <p>Fonctions <code>ToggleDoor()</code> et <code>IsPlayerNearby()</code> avec utilisation de <code>SerializeField</code> pour faciliter la personnalisation.</p>
+          </div>
+        </div>
+    
+        <div class="card">
+          <img src="../../assets/LAL_Hierrachie_Code.png" alt="Hiérarchie de code Unity">
+          <div class="caption">
+            <h3>Organisation du projet</h3>
+            <p>Hiérarchie des dossiers et scripts sous Unity, séparés par modules : interaction, narration, contrôle du joueur, etc.</p>
+          </div>
+        </div>
+    
+        <div class="card">
+          <img src="../../assets/LAL_Premier_etage.png" alt="Scène - Premier étage">
+          <div class="caption">
+            <h3>Premier étage</h3>
+            <p>Zone importante dans le récit, marquant un changement de ton émotionnel. Modélisation inspirée d’une maison ancienne.</p>
+          </div>
+        </div>
+    
+        <div class="card">
+          <img src="../../assets/LAL_Cuisine_RDC.png" alt="Scène - Cuisine du rez-de-chaussée">
+          <div class="caption">
+            <h3>Cuisine du rez-de-chaussée</h3>
+            <p>Lieu central de la maison, témoin de scènes passées importantes. Le vide reflète l'absence et la rupture familiale.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+      
+    <section>
+      <h2>Conclusion</h2>
+      <p>Ce projet nous a permis d’enrichir notre maîtrise de Unity, du langage C# et de la conception d’expériences narratives interactives. Malgré quelques limitations techniques (gestion des objets, affichage de texte), le jeu est fonctionnel et délivre un message fort. Il pourrait être amélioré par un lore plus étendu et des éléments visuels supplémentaires.</p>
+    </section>
+
+    <section>
+      <h2>Découvrir un autre projet ?</h2>
+      <p><a href="projet_vapeur.html">← Projet précédent : Application "Vapeur"</a></p>
+      <p><a href="Projet_VR.html">→ Projet suivant : Jeu vidéo "LegoBreaker" </a></p>
+    </section>
+
+  </main>
+</body>
+</html>

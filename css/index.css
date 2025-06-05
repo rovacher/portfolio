@@ -1,0 +1,64 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f7fa;
+    color: #333;
+  }
+  
+  header {
+    background-color: #0f172a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  section {
+    margin-bottom: 50px;
+  }
+  
+  .intro {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .cv-competences {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .cv, .competences {
+    flex: 1;
+    min-width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .competences ul {
+    padding-left: 20px;
+  }
+  
+  .projets .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .projet {
+    background: #e2e8f0;
+    padding: 30px 15px;
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  }
+  

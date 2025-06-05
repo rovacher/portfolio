@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 600px;
+  height: 600px;
+}
+
+.avatar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.avatar img {
+  width: 200px;
+  height: 200px;
+}
+
+.avatar p {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.bubble {
+  position: absolute;
+  width: 160px;
+  min-height: 100px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 12px;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #333;
+  transition: transform 0.3s;
+}
+
+.bubble:hover {
+  transform: scale(1.05) translate(-50%, -50%);
+  z-index: 1;
+}
+
+.bubble span {
+  display: block;
+  margin-top: 5px;
+  font-size: 0.75rem;
+  color: #555;
+}
+
+/* Position des bulles */
+.top         { top: 0; left: 50%; transform: translate(-50%, 0); }
+.top-right   { top: 15%; left: 80%; transform: translate(-50%, -50%); }
+.right       { top: 50%; left: 100%; transform: translate(-100%, -50%); }
+.bottom-right{ bottom: 15%; left: 80%; transform: translate(-50%, 50%); }
+.bottom      { bottom: 0; left: 50%; transform: translate(-50%, 0); }
+.bottom-left { bottom: 15%; left: 20%; transform: translate(-50%, 50%); }
+.left        { top: 50%; left: 0; transform: translate(0, -50%); }
+.top-left    { top: 15%; left: 20%; transform: translate(-50%, -50%); }
