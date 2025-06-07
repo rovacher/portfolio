@@ -83,11 +83,6 @@ main {
   transition: transform 0.3s;
 }
 
-.bubble:hover {
-  transform: scale(1.05) translate(-50%, -50%);
-  z-index: 1;
-}
-
 .bubble span {
   display: block;
   margin-top: 5px;
@@ -150,3 +145,4 @@ main {
 #side-menu ul li a:hover {
   text-decoration: underline;
 }
+
