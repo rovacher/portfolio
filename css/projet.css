@@ -104,3 +104,48 @@ body {
     color: #475569;
   }
   
+  /* Menu burger */
+.menu-toggle {
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  z-index: 1001;
+}
+
+/* Menu latéral */
+#side-menu {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #0f172a;
+  color: white;
+  padding-top: 60px;
+  transition: left 0.3s ease;
+  z-index: 1000;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+}
+
+#side-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+#side-menu ul li {
+  padding: 15px 25px;
+  border-bottom: 1px solid #1e293b;
+}
+
+#side-menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+#side-menu ul li a:hover {
+  text-decoration: underline;
+}
