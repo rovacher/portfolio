@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <li><a href="/pages/projets/Projet_VR.html">Jeu vidéo pour les enfants</a></li>
         <li><a href="/pages/projets/LandL.html">Jeu vidéo sur le suicide</a></li>
         <li><a href="/pages/projets/MLK.html">Jeu vidéo sur la ségrégation aux USA</a></li>
+        <li><a href="/pages/Contact.html">Me contacter</a></li>
       </ul>
     </nav>
     <div class="menu-toggle" onclick="toggleMenu()">☰</div>
