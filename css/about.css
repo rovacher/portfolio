@@ -105,7 +105,7 @@ main {
 .left        { top: 50%; left: 0; transform: translate(0, -50%); }
 .top-left    { top: 15%; left: 20%; transform: translate(-50%, -50%); }
 
-/* Menu burger */
+  /* Menu burger */
 .menu-toggle {
   font-size: 2rem;
   cursor: pointer;
