@@ -107,3 +107,33 @@ body {
 #side-menu ul li a:hover {
   text-decoration: underline;
 }
+/* Place correctement le bouton ☰ sur toutes les pages */
+.menu-toggle {
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+  position: fixed;
+  left: 20px;
+  top: 20px;
+  z-index: 1001;
+}
+
+/* Ajoute un petit padding à gauche pour ne pas gêner */
+body {
+  padding-left: 0;
+}
+
+/* Le menu latéral */
+#side-menu {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #0f172a;
+  color: white;
+  padding-top: 60px;
+  transition: left 0.3s ease;
+  z-index: 1000;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+}
